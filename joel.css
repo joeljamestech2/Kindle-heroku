@@ -20,7 +20,7 @@ body {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background: var(--primary) url('https://telegra.ph/file/73a92105d5b27a7715e86.jpg') no-repeat center center/cover;
+  background: var(--primary) url('https://files.catbox.moe/5a2euh.jpg') no-repeat center center/cover;
   backdrop-filter: blur(20px);
 }
 
@@ -97,7 +97,7 @@ body {
     margin-top: 20px;
     margin-left: 150px;
     margin-bottom: 20px;
-    background-image: url('https://telegra.ph/file/73a92105d5b27a7715e86.jpg');
+    background-image: url('https://files.catbox.moe/5a2euh.jpg');
     background-size: cover;
     background-position: center;
 }
