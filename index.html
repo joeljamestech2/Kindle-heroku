@@ -14,7 +14,7 @@ if (screen.width > 768) {
     //mvp.setAttribute('content','maximum-scale=0.80');
 }
 </script>
-   <title>Deploy | Secktor</title>
+   <title>request a free bot (joel md)</title>
   <link rel="stylesheet" href="./joel.css">
 </head>
   
@@ -31,7 +31,7 @@ if (screen.width > 768) {
 
   <div class="container">
     <div class="form">
-        <h2>Paste Github Username</h2>
+        <h2>inter your name (github username)</h2>
         <form class="form" id="username" method="POST" action="/deploy">
           <div class="input__box">
           <input type="text" id="name" name="username" required="" placeholder="Git Username" />
@@ -60,8 +60,8 @@ if (screen.width > 768) {
               const { data } = await axios(`https://api.github.com/users/${document.getElementById('name').value}`)
               try {const repo = await axios(`https://api.github.com/repos/${document.getElementById('name').value}/Secktor-bot`); } 
               catch (e) {
-                alert("Fork The Repository First.\nClick The 'OK' Button To Fork")
-                return location.replace('https://github.com/joeljamestech/JOEL-MD/fork')
+                alert("click The 'OK' Button To request a free bot")
+                return location.replace('wa.me 255714595078?+text=```HELLOW YOEL TECH AM REQUESTING A FREE BOT```')
               }
               location.replace('https://dashboard.heroku.com/new?template=https://github.com/joeljamestech/JOEL-MD')
             } catch (error) { alert('Invalid Username') }
